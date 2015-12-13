@@ -2,5 +2,7 @@
 dotfiles/vim/.netrwhist
 dotfiles/vim/plugged/*
 dotfiles/vim/undo/*
+projects/*
 !/dotfiles/vim/plugged/.keep
 !/dotfiles/vim/undo/.keep
+!/projects/.keep

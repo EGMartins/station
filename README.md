@@ -30,16 +30,16 @@ Then please set your git credentials:
 
 ## Workflow
 
-Up and access virtual machine:
+Start and access the virtual machine:
 
     $ vagrant up
     $ vagrant ssh
 
-Go to shared folder:
+Go to the projects dir on shared folder:
 
-    vagrant $ cd /vagrant
+    vagrant $ cd /vagrant/projects
 
-Have fun with your new Rails app:
+And have fun with your new brand Rails app:
 
     vagrant $ rails new myapp
     vagrant $ cd myapp
@@ -49,15 +49,15 @@ Have fun with your new Rails app:
 
 ## What's inside
 
-**running on Ubuntu 14.04 LTS**
+**Running on Ubuntu 14.04 LTS**
 
 * Git
 * Ag (Silver Searcher)
 * Redis
 * ImageMagick
 * PostgreSQL
-* Ruby
 * Rbenv
+* Ruby
 * Ruby on Rails
 * Heroku Toolbelt
 * Bash Git Prompt
@@ -66,4 +66,4 @@ Have fun with your new Rails app:
 
 ## License
 
-Released under the MIT License
+Released under the MIT License.
