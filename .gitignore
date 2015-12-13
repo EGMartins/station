@@ -1,0 +1,6 @@
+.vagrant
+dotfiles/vim/.netrwhist
+dotfiles/vim/plugged/*
+dotfiles/vim/undo/*
+!/dotfiles/vim/plugged/.keep
+!/dotfiles/vim/undo/.keep
