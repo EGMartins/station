@@ -1,4 +1,4 @@
-# RubyEnv
+# Station
 
 Vagrant config and provision bootstrap for Ruby on Rails development.
 
@@ -13,8 +13,8 @@ You only must have installed:
 
 Just clone the repo and up Vagrant:
 
-    $ git clone https://github.com/rubycoach/rubyenv.git
-    $ cd rubyenv
+    $ git clone https://github.com/rubycoach/station.git
+    $ cd station
     $ vagrant up
 
 **tip: this will take a while**
