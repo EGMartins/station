@@ -28,6 +28,26 @@ Then please set your git credentials:
     vagrant $ git config --global user.name [Your Name]
     vagrant $ git config --global user.email [Your Email]
 
+## Updates
+
+To update your environment, first destroy the current machine:
+
+**tip: be careful, this will destroy all its contents**
+
+    $ vagrant destroy
+
+And then update the repo:
+
+    $ git pull
+
+Build your machine again to apply changes:
+
+    $ vagrant up
+
+Be happy:
+
+    $ vagrant ssh
+
 ## Workflow
 
 Start and access the virtual machine:
