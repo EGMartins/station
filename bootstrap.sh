@@ -51,7 +51,7 @@ echo installing Vim plugins
 vim +PlugInstall +qall >/dev/null 2>&1
 
 # Needed for docs generation.
-update-locale LANG=en_US.UTF-8 LANGUAGE=en_US.UTF-8 LC_ALL=en_US.UTF-8
+sudo update-locale LANG=en_US.UTF-8 LANGUAGE=en_US.UTF-8 LC_ALL=en_US.UTF-8
 
 echo ========================================
 echo Please, type vagrant ssh
