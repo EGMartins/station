@@ -5,7 +5,7 @@ function install {
 }
 
 echo =============
-echo RubyEnv Setup
+echo Station Setup
 
 echo updating package information
 sudo apt-get -y update
@@ -14,8 +14,10 @@ install 'Git' git
 install 'Ag' silversearcher-ag
 install 'Redis' redis-server
 install 'ImageMagick' imagemagick
+install 'ExecJS runtime' nodejs
 install 'PostgreSQL' postgresql postgresql-contrib libpq-dev
 install 'Ruby dependencies' libssl-dev libreadline-dev zlib1g-dev
+install 'Nokogiri dependencies' libxml2 libxml2-dev libxslt1-dev
 
 echo setting Postgres user
 sudo -u postgres createuser --superuser vagrant
@@ -42,11 +44,14 @@ rbenv install 2.2.3
 rbenv global 2.2.3
 
 echo installing Ruby on Rails
-gem install rails -v 4.2.5
+gem install rails
 rbenv rehash
 
 echo installing Vim plugins
 vim +PlugInstall +qall >/dev/null 2>&1
+
+# Needed for docs generation.
+update-locale LANG=en_US.UTF-8 LANGUAGE=en_US.UTF-8 LC_ALL=en_US.UTF-8
 
 echo ========================================
 echo Please, type vagrant ssh
