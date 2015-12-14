@@ -22,6 +22,7 @@ call plug#end()
 let g:airline_theme='bubblegum'
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#show_buffers = 0
 
 " [seoul256] Color theme settings
 let g:seoul256_background = 235

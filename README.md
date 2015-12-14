@@ -13,11 +13,11 @@ You only must have installed:
 
 Just clone the repo and up Vagrant:
 
+**tip: this will take a while**
+
     $ git clone https://github.com/rubycoach/station.git
     $ cd station
     $ vagrant up
-
-**tip: this will take a while**
 
 After the installation has finished, you can access via ssh:
 
@@ -80,6 +80,7 @@ And have fun with your new brand Rails app:
 * Ruby
 * Ruby on Rails
 * Heroku Toolbelt
+* Nodejs
 * Bash Git Prompt
 * Vim plugins
 * dotfiles

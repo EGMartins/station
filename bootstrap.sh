@@ -8,6 +8,7 @@ echo =============
 echo Station Setup
 
 echo updating package information
+sudo add-apt-repository -y ppa:git-core/ppa
 sudo apt-get -y update
 
 install 'Git' git
